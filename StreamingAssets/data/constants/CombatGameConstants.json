@@ -27,14 +27,6 @@
         "MoraleBaselineMultiplyByActive": false,
         "BaselineMultiplyByActiveElites": false,
 		
-		"BaselineAddFromSimGameThresholds":
-        [
-            0,
-            10,
-            20,
-            30,
-            40
-        ],
         "BaselineAddFromSimGameValues":
         [
             0,

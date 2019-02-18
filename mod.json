@@ -4,11 +4,14 @@
 	"Author": "Mad",
     "Enabled": true,
 	"Manifest": [
-        { "Type": "ShopDef", "Path": "ShopDefs\\" },
 		{ "Type": "WeaponDef", "Path": "WeaponDefs\\" },
 		{ "Type": "ChassisDef", "Path": "ChassisDefs\\" },
 		{ "Type": "MechDef", "Path": "MechDefs\\" },
 		{ "Type": "AmmunitionBoxDef", "Path": "AmmunitionBoxDefs\\" },
-		{ "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs\\" }
+		{ "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs\\" },
+		{
+			"Type": "AdvancedJSONMerge",
+			"Path": "StarSystemDefs"
+		}
     ]
 }

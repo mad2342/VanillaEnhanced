@@ -1,6 +1,6 @@
 {
+    "Damage" : 27,
     "AccuracyModifier" : -2,
-    "CriticalChanceMultiplier" : 1.25,
-    "BonusValueA" : "+1 Acc.",
-    "BonusValueB" : "+ 25% Crit."
+    "BonusValueA" : "+ 1 Acc.",
+	"BonusValueB" : "+ 2 Dmg."
 }
