@@ -1,0 +1,10 @@
+{
+    "ShopMaxSpecials": 19,
+	"SystemShopItems": [
+        "itemCollection_major_Liao",
+        "itemCollection_shop_starleague",
+        "itemCollection_shop_industrial",
+        "itemCollection_shop_research",
+		"itemCollection_Custom"
+    ]
+}

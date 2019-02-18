@@ -1,0 +1,79 @@
+{
+   "ID" : "shopdef_Mech_special_1",
+   "RequirementTags" : {
+      "items" : [
+            "planet_other_starleague",
+            "planet_other_ruins",
+			"planet_industry_mining"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_other_empty",
+		"planet_progress_1"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+
+   ],
+   "Specials" : [
+		{
+			"ID" : "mechdef_locust_LCT-1Vb",
+			"Type" : "Mech",
+			"DiscountModifier" : 1.0,
+			"Count" : 1,
+			"Weight" : 5
+		},
+		{
+			"ID" : "mechdef_kintaro_KTO-19b",
+			"Type" : "Mech",
+			"DiscountModifier" : 1.0,
+			"Count" : 1,
+			"Weight" : 3
+		},
+		{
+			"ID" : "mechdef_griffin_GRF-4N",
+			"Type" : "Mech",
+			"DiscountModifier" : 1.0,
+			"Count" : 1,
+			"Weight" : 3
+		},
+		{
+			"ID" : "mechdef_shadowhawk_SHD-2Hb",
+			"Type" : "Mech",
+			"DiscountModifier" : 1.0,
+			"Count" : 1,
+			"Weight" : 3
+		},
+		{
+			"ID" : "mechdef_catapult_CPLT-C1b",
+			"Type" : "Mech",
+			"DiscountModifier" : 1.0,
+			"Count" : 1,
+			"Weight" : 3
+		},
+		{
+			"ID" : "mechdef_thunderbolt_TDR-5Sb",
+			"Type" : "Mech",
+			"DiscountModifier" : 1.0,
+			"Count" : 1,
+			"Weight" : 3
+		},
+		{
+			"ID" : "mechdef_blackknight_BL-6b-KNT",
+			"Type" : "Mech",
+			"DiscountModifier" : 1.0,
+			"Count" : 1,
+			"Weight" : 3
+		},
+		{
+			"ID" : "mechdef_battlemaster_BLR-1Gb",
+			"Type" : "Mech",
+			"DiscountModifier" : 1.0,
+			"Count" : 1,
+			"Weight" : 2
+		}		
+   ]
+}

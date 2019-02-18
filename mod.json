@@ -1,0 +1,14 @@
+{
+    "Name": "Enhancements and additions for BTG Core",
+    "Version": "0.0.1",
+	"Author": "Mad",
+    "Enabled": true,
+	"Manifest": [
+        { "Type": "ShopDef", "Path": "ShopDefs\\" },
+		{ "Type": "WeaponDef", "Path": "WeaponDefs\\" },
+		{ "Type": "ChassisDef", "Path": "ChassisDefs\\" },
+		{ "Type": "MechDef", "Path": "MechDefs\\" },
+		{ "Type": "AmmunitionBoxDef", "Path": "AmmunitionBoxDefs\\" },
+		{ "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs\\" }
+    ]
+}

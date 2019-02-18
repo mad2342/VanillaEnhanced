@@ -1,0 +1,8 @@
+{
+	"Story":
+	{
+		"ContractDifficultyVariance": 6,
+		"MaxContractsPerSystem" : 8,
+		"DefaultRoninHiringChance": 1.0
+	}
+}
