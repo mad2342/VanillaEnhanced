@@ -6,14 +6,18 @@
 		"ToHitMedium": 2,
 		"ToHitLight": 3,
 		"ToHitVehicleAssault": 0,
-		"ToHitVehicleHeavy": 0,
-		"ToHitVehicleMedium": 1,
-		"ToHitVehicleLight": 1,
+		"ToHitVehicleHeavy": 1,
+		"ToHitVehicleMedium": 2,
+		"ToHitVehicleLight": 3,
 		
 		"ToHitMinimumRange": 10,	
 		"ToHitCoverObstructed": 4,
 		
 		"SensorLockPipsStripped": 3
+	},
+    "ResolutionConstants":
+    {
+        "AICritChanceBaseMultiplier": 0.5
 	},
 	"MoraleConstants":
     {

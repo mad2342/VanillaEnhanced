@@ -2,7 +2,7 @@
 	"Actions" : [			
 		{
 			"Type" : "System_PauseNotification",
-			"value" : "Commander, i've got a little surprise for you. During the excavations made for the additional mech bay our people found parts of what seems to be an ancient SLDF Shadow Hawk. With some effort, Yang will probably be able to reassemble the pieces and get it battle-ready again!",
+			"value" : "Commander, the Argo really is a ship like no other! During the extensive redevelopment work made for the additional mech bay our people found parts of what seems to be an ancient SLDF Shadow Hawk. With some effort, Yang will probably be able to reassemble the pieces and get it battle-ready again!",
 			"additionalValues" : [
 				"The Argos Secrets",
 				"castDef_FarahDefault"

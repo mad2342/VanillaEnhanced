@@ -4,6 +4,7 @@
 	"Author": "Mad",
     "Enabled": true,
 	"Manifest": [
+		{ "Type": "SimGameEventDef", "Path": "SimGameEventDefs\\" },
 		{ "Type": "WeaponDef", "Path": "WeaponDefs\\" },
 		{ "Type": "ChassisDef", "Path": "ChassisDefs\\" },
 		{ "Type": "MechDef", "Path": "MechDefs\\" },

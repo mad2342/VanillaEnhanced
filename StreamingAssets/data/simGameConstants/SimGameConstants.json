@@ -2,7 +2,31 @@
 	"Story":
 	{
 		"ContractDifficultyVariance": 6,
+		
+		"LoathedMaxContractDifficulty" : -5,
+		"HatedMaxContractDifficulty" : -3,
+		"DislikedMaxContractDifficulty" : -1,
+		"IndifferentMaxContractDifficulty" : 1,
+		"LikedMaxContractDifficulty" : 3,
+		"FriendlyMaxContractDifficulty" : 5,
+		"HonoredMaxContractDifficulty" : 7,
+		
 		"MaxContractsPerSystem" : 8,
-		"DefaultRoninHiringChance": 1.0
+		"DefaultRoninHiringChance": 0.24
+	},
+   "CareerMode" : {
+		"LoathedMaxContractDifficulty" : 3,
+		"HatedMaxContractDifficulty" : 4,
+		"DislikedMaxContractDifficulty" : 5,
+		"IndifferentMaxContractDifficulty" : 8,
+		"LikedMaxContractDifficulty" : 10,
+		"FriendlyMaxContractDifficulty" : 11,
+		"HonoredMaxContractDifficulty" : 12,
+   },
+   "MechLab" :{
+		"StructureRepairTechPoints" : 0.5,
+		"StructureRepairCost" : 500,
+		"ComponentRepairTechPoints" : 10,
+		"ComponentRepairCost" : 1000
 	}
 }
