@@ -47,7 +47,9 @@
         "OffensivePushHighMoraleCost": 45,
         "DefensivePushCost": 40,
         "DefensivePushLowMoraleCost": 55,
-        "DefensivePushHighMoraleCost": 25
+        "DefensivePushHighMoraleCost": 25,
+		
+        "CanAIBeInspired": false
 	},
     "CombatUIConstants":
     {
