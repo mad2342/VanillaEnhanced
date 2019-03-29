@@ -12,7 +12,7 @@
 		"HonoredMaxContractDifficulty" : 7,
 		
 		"MaxContractsPerSystem" : 8,
-		"DefaultRoninHiringChance": 0.24
+		"DefaultRoninHiringChance": 0.48
 	},
    "CareerMode" : {
 		"LoathedMaxContractDifficulty" : 3,
