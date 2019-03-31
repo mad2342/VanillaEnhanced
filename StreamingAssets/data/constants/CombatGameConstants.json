@@ -19,6 +19,9 @@
     {
         "AICritChanceBaseMultiplier": 0.5
 	},
+	"Heat": {
+		"ShutdownCausesInjury": true
+	},
 	"MoraleConstants":
     {
         "ChangeEnemyDestroyedLight": 10,
