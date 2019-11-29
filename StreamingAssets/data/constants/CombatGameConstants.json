@@ -34,12 +34,21 @@
         "MoraleBaselineMultiplyByActive": false,
         "BaselineMultiplyByActiveElites": false,
 		
+		"BaselineAddFromSimGameValues":
+        [
+            0,
+            5,
+            10,
+            15,
+            20
+        ],
+		
 		"BaselineAddMoraleMods": true,
         "BaselineModsOnlyBiggest": false,
 	
-        "OffensivePushCost": 60,
-        "OffensivePushLowMoraleCost": 75,
-        "OffensivePushHighMoraleCost": 45,
+        "OffensivePushCost": 40,
+        "OffensivePushLowMoraleCost": 55,
+        "OffensivePushHighMoraleCost": 25,
         "DefensivePushCost": 40,
         "DefensivePushLowMoraleCost": 55,
         "DefensivePushHighMoraleCost": 25,
