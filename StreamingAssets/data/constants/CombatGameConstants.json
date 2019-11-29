@@ -34,14 +34,6 @@
         "MoraleBaselineMultiplyByActive": false,
         "BaselineMultiplyByActiveElites": false,
 		
-        "BaselineAddFromSimGameValues":
-        [
-            0,
-            5,
-            10,
-            15,
-            20
-        ],
 		"BaselineAddMoraleMods": true,
         "BaselineModsOnlyBiggest": false,
 	

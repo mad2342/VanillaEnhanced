@@ -1,3 +1,4 @@
 {
-    "StartingAmmoCapacity" : 6
+    "StartingAmmoCapacity" : 6,
+	"BonusValueA" : ""
 }
