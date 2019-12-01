@@ -60,17 +60,17 @@
         "MoraleCostAttackDescription":
         {
             "Name": "PRECISION STRIKE COST",
-            "Details": "Cost: 60 Resolve"
+            "Details": "Cost: 40 Resolve"
         },
         "MoraleCostAttackDescriptionLow":
         {
             "Name": "PRECISION STRIKE COST LOW",
-            "Details": "Cost: <color=#F04228FF>75 Resolve (this MechWarrior has Low Spirits)</color>"
+            "Details": "Cost: <color=#F04228FF>45 Resolve (this MechWarrior has Low Spirits)</color>"
         },
         "MoraleCostAttackDescriptionHigh":
         {
             "Name": "PRECISION STRIKE COST HIGH",
-            "Details": "Cost: <color=#85DBF6FF>45 Resolve (this MechWarrior has High Spirits)</color>"
+            "Details": "Cost: <color=#85DBF6FF>25 Resolve (this MechWarrior has High Spirits)</color>"
         },
         "MoraleCostDefendDescription":
         {
