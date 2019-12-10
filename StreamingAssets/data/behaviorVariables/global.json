@@ -240,6 +240,15 @@
             }
 	},
 	{
+	    /* Optimal distance to nearest hostile. (See
+	       Float_PreferOptimalDistanceToHostileFactorWeight.) */
+            "k" : "Float_OptimalHostileDistance",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 200
+            }
+	},
+	{
 	    /* Influence Factor Weight to prefer locations close to
 	       optimal distance to other allies. */
             "k" : "Float_PreferOptimalDistanceToAllyFactorWeight",
@@ -250,11 +259,29 @@
 	},
 	{
 	    /* Influence Factor Weight to prefer locations close to
+	       optimal distance to other hostiles. */
+            "k" : "Float_PreferOptimalDistanceToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer locations close to
 	       optimal distance to other allies WHEN SPRINTING. */
             "k" : "Float_SprintPreferOptimalDistanceToAllyFactorWeight",
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer locations close to
+	       optimal distance to other hostiles WHEN SPRINTING. */
+            "k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0
             }
 	},
 	{
@@ -1566,6 +1593,200 @@
 		"type": "Int",
                 "intVal" : "-1"
 	    }
+	},
+			{
+	    /* Weight for an influence factor that seeks to stay
+	       within ECM range of friendlies */
+		"k" : "Float_PreferFriendlyECMFields",
+		"v" : 
+		{
+			"type" : "Float",
+			"floatVal" : 0.75
+		}
+	},
+	{
+	    /* Weight for an influence factor that seeks to stay
+	       within ECM range of friendlies WHEN SPRINTING */
+		"k" : "Float_SprintPreferFriendlyECMFields",
+		"v" : 
+		{
+			"type" : "Float",
+			"floatVal" : 0.0
+		}
+	},
+	{
+	    /* Weight for an influence factor that seeks to stay
+	       within range of hostile ECM fields */
+		"k" : "Float_PreferHostileECMFields",
+		"v" : 
+		{
+			"type" : "Float",
+			"floatVal" : 100
+		}
+	},
+	{
+	    /* Weight for an influence factor that seeks to stay
+	       within range of hostile ECM fields WHEN SPRINTING */
+		"k" : "Float_SprintPreferHostileECMFields",
+		"v" : 
+		{
+			"type" : "Float",
+			"floatVal" : 100
+		}
+	},
+	{
+	    /* Weight for an influence factor that seeks to stay
+	       within range of hostile ECM fields to use Active Probe */
+		"k" : "Float_PreferActiveProbePositions",
+		"v" : 
+		{
+			"type" : "Float",
+			"floatVal" : 0
+		}
+	},
+	{
+	    /* Weight for an influence factor that seeks to stay
+	       within range of hostile ECM fields to use Active Probe */
+		"k" : "Float_SprintPreferActiveProbePositions",
+		"v" : 
+		{
+			"type" : "Float",
+			"floatVal" : 0
+		}
+	},
+	{
+	    /* Number of active probe targets before we even try to activate 
+	    active probe */
+		"k" : "Int_MinimumActiveProbeCount",
+		"v" : 
+		{
+			"type" : "Int",
+			"IntVal" : "999"
+		}
+	},
+	{
+	    /* Minimum number of stealth pips to allow for an ECM
+		ghosted mech to fire weapons */
+		"k" : "Int_MinimumECMGhostedPipsToFire",
+		"v" : 
+		{
+			"type" : "Int",
+			"IntVal" : "2"
+		}
+	},
+	{
+	    /* Enables advanced navigation behaviors only in urban biomes */
+		"k" : "Bool_EnableUrbanBiomeNavigation",
+		"v" : 
+		{
+			"type" : "Bool",
+			"boolVal" : true
+		}
+	},
+	{
+	    /* Enables advanced navigation behaviors on all biome types */
+		"k" : "Bool_EnableUrbanBiomeNavigationEverywhere",
+		"v" : 
+		{
+			"type" : "Bool",
+			"boolVal" : false
+		}
+	},
+	{
+	    /*  Description: Float to track confidence in causing structural damage. Used to gague whether we should fire our weapon
+		from a ghosted state */
+		"k" : "Float_ConfidenceInSignificantDamageWhileGhostedLevel",
+		"v" : 
+		{
+			"type" : "Float",
+			"floatVal" : 0.7
+		}
+	},
+	{
+	    /* When calculatiing expected damage, how much to lerp between the damage divided by number of weapons and the damage if every hit
+		was in the same location. 0 is damage divided and 1 is damage concentrated. 
+		Increases with Float_GhostStateHysteresisMultiplierTurnIncrease */
+		"k" : "Float_WeaponDamageSpreadLerpValue",
+		"v" : 
+		{
+			"type" : "Float",
+			"floatVal" : 0.5
+		}
+	},
+	{
+	    /*  When getting the chance in causing significant damage, how much weight to give the amount of structural damage caused. */
+		"k" : "Float_StructuralDamagePercentageMultiplier",
+		"v" : 
+		{
+			"type" : "Float",
+			"floatVal" : 1
+		}
+	},
+	{
+	    /* When shooting in ghost state, lerp value to go from expected damage and max possible damage.
+		Increases with Float_GhostStateHysteresisMultiplierTurnIncrease */
+		"k" : "Float_ExpectedAndMaxDamageShootingInGhostStateLerp",
+		"v" : 
+		{
+			"type" : "Float",
+			"floatVal" : 0
+		}
+	},
+	{	
+	    /* For every round the ai does not shoot in ghost state, it adds to a mutiplier that increases the confidence in causing higher damage */
+		"k" : "Float_GhostStateHysteresisMultiplierTurnIncrease",
+		"v" : 
+		{
+			"type" : "Float",
+			"floatVal" : 0.3
+	}
+	},
+	{	
+	    /* Enables more precise predictions about expected damage by counting weapons in range and damage reductions of the unit*/
+		"k" : "Bool_ExpectedDamageAccuracyIncrease",
+		"v" : 
+		{
+			"type" : "Bool",
+			"boolVal" : false
+		}
+	},
+	{
+	    /*Enables the long-range pathfinding to be aware of actors blocking movement in nodes globally */
+		"k" : "Bool_EnableLongRangePathfindingBeActorAware",
+		"v" : 
+		{
+			"type" : "Bool",
+			"boolVal" : false
+		}
+	},
+	{
+	    /* How close to the target region do we switch to short-range pathfinding */
+		"k" : "Float_LongRangeToShortRangeDistanceThreshold",
+		"v" : 
+		{
+			"type" : "Float",
+			"floatVal" : 10
+		}
+	},
+	{
+	    /* Weight penalty multiplier for losing the ECM counter aura when positioning. 
+		   If set to 1, it represents -Float_PreferHostileECMFields or -Float_SprintPreferHostileECMFields*/
+		"k" : "Float_PreferHostileECMFieldsPenaltyMultiplier",
+		"v" : 
+		{
+			"type" : "Float",
+			"floatVal" : 1
+		}
+	},
+	{
+	    /* Whether when enemy is ghosted, to use sprint or walk distance as marker to calculate influence map positional factors.
+		Lerp is 0 - 1, Walking to Sprinting*/
+		"k" : "Float_SignalInWeapRngWhenEnemyGhostedWithinMoveDistance",
+		"v" : 
+		{
+			"type" : "Float",
+			"floatVal" : 0.5
+		}
 	}
     ]
 }
