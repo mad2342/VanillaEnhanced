@@ -97,9 +97,6 @@
         "MinHeightAboveTerrain" : 15.0,
         "MaxHeightAboveTerrain" : 580.0,
         "MinAngle" : 5.0,
-        "MaxAngle" : 80.0,
-        "CamDelayDeath" : 2.5,
-        "CamDelayBuildingDeath" : 2.5,
-        "CamDelayFall" : 2.0
+        "MaxAngle" : 80.0
     }
 }
