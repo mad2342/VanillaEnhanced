@@ -17,8 +17,7 @@
     },
     "ResolutionConstants":
     {
-        "AICritChanceBaseMultiplier": 0.5,
-        "StabilityDumpJumping": -2
+        "AICritChanceBaseMultiplier": 0.5
     },
     "Heat": {
         "ShutdownCausesInjury": true
