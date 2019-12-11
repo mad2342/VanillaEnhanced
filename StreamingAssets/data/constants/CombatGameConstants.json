@@ -1,40 +1,41 @@
 {
-	"ToHit":
+    "ToHit":
     {
-		"ToHitAssault": 0,
-		"ToHitHeavy": 1,
-		"ToHitMedium": 2,
-		"ToHitLight": 3,
-		"ToHitVehicleAssault": 0,
-		"ToHitVehicleHeavy": 1,
-		"ToHitVehicleMedium": 2,
-		"ToHitVehicleLight": 3,
-		
-		"ToHitMinimumRange": 10,	
-		"ToHitCoverObstructed": 4,
-		
-		"SensorLockPipsStripped": 3
-	},
+        "ToHitAssault": 0,
+        "ToHitHeavy": 1,
+        "ToHitMedium": 2,
+        "ToHitLight": 3,
+        "ToHitVehicleAssault": 0,
+        "ToHitVehicleHeavy": 1,
+        "ToHitVehicleMedium": 2,
+        "ToHitVehicleLight": 3,
+        
+        "ToHitMinimumRange": 10,    
+        "ToHitCoverObstructed": 4,
+        
+        "SensorLockPipsStripped": 3
+    },
     "ResolutionConstants":
     {
-        "AICritChanceBaseMultiplier": 0.5
-	},
-	"Heat": {
-		"ShutdownCausesInjury": true
-	},
-	"MoraleConstants":
+        "AICritChanceBaseMultiplier": 0.5,
+        "StabilityDumpJumping": -2
+    },
+    "Heat": {
+        "ShutdownCausesInjury": true
+    },
+    "MoraleConstants":
     {
         "ChangeEnemyDestroyedLight": 10,
         "ChangeEnemyDestroyedMedium": 10,
         "ChangeEnemyDestroyedHeavy": 10,
         "ChangeEnemyDestroyedAssault": 10,
-		
-		"MoraleInitialDefault": 5,
-		"MoraleBaselineGainPerRound": 0,
+        
+        "MoraleInitialDefault": 5,
+        "MoraleBaselineGainPerRound": 0,
         "MoraleBaselineMultiplyByActive": false,
         "BaselineMultiplyByActiveElites": false,
-		
-		"BaselineAddFromSimGameValues":
+        
+        "BaselineAddFromSimGameValues":
         [
             0,
             5,
@@ -42,19 +43,19 @@
             15,
             20
         ],
-		
-		"BaselineAddMoraleMods": true,
+        
+        "BaselineAddMoraleMods": true,
         "BaselineModsOnlyBiggest": false,
-	
+    
         "OffensivePushCost": 40,
         "OffensivePushLowMoraleCost": 55,
         "OffensivePushHighMoraleCost": 25,
         "DefensivePushCost": 40,
         "DefensivePushLowMoraleCost": 55,
         "DefensivePushHighMoraleCost": 25,
-		
+        
         "CanAIBeInspired": false
-	},
+    },
     "CombatUIConstants":
     {
         "MoraleCostAttackDescription":
@@ -87,8 +88,8 @@
             "Name": "VIGILANCE COST HIGH",
             "Details": "Cost: <color=#85DBF6FF>25 Resolve (this MechWarrior has High Spirits)</color>"
         }
-	},
-	"CameraConstants":
+    },
+    "CameraConstants":
     {
         "MoveSpeed" : 120.0,
         "ZoomSpeed" : 2000.0,
