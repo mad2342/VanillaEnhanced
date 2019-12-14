@@ -9,7 +9,7 @@
         90,
         90
     ],
-    "AmmoCategory" : "Flamer",
+    "ammoCategoryID" : "Flamer",
     "StartingAmmoCapacity" : 6,
     "HeatGenerated" : 0,
     "Damage" : 10,
@@ -30,7 +30,7 @@
     "WeaponEffectID" : "WeaponEffect-Weapon_Flamer",
     "Description" : {
         "Cost" : 45000,
-        "Rarity" : 20,
+        "Rarity" : 5,
         "Purchasable" : true,
         "Manufacturer" : "Zippo",
         "Model" : "Heat Damage Flamethrower",

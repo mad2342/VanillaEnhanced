@@ -9,7 +9,7 @@
         360,
         540
     ],
-    "AmmoCategory" : "NotSet",
+    "ammoCategoryID" : "NotSet",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 32,
     "Damage" : 60,
@@ -30,7 +30,7 @@
     "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
     "Description" : {
         "Cost" : 420000,
-        "Rarity" : 20,
+        "Rarity" : 5,
         "Purchasable" : true,
         "Manufacturer" : "Diverse_Optics",
         "Model" : "Particle Projector Cannon",
@@ -93,7 +93,7 @@
                 "targetCollection" : "NotSet",
                 "targetWeaponCategory" : "NotSet",
                 "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
+                "targetammoCategoryID" : "NotSet",
                 "targetWeaponSubType" : "NotSet"
             },
             "tagData" : null,
