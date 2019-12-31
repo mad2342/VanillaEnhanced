@@ -65,7 +65,7 @@
         "MoraleCostAttackDescriptionLow":
         {
             "Name": "PRECISION STRIKE COST LOW",
-            "Details": "Cost: <color=#F04228FF>45 Resolve (this MechWarrior has Low Spirits)</color>"
+            "Details": "Cost: <color=#F04228FF>55 Resolve (this MechWarrior has Low Spirits)</color>"
         },
         "MoraleCostAttackDescriptionHigh":
         {
