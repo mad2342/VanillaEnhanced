@@ -25,7 +25,7 @@
     "UIName": "Marauder MAD-2R",
     "Id": "mechdef_marauder_MAD-2R",
     "Name": "Marauder",
-    "Details": "One of the earliest version of the Marauder, used by the Royal brigades of the SLDF, the 2R upgrades its PPCs to extended range models, necessitating a similar upgrade of the heat sinks to double heat sinks.",
+    "Details": "One of the earliest versions of the Marauder, used by the Royal brigades of the SLDF, the 2R upgrades its PPCs to extended range models, necessitating a similar upgrade of the heat sinks to double strength models.",
     "Icon": "uixTxrIcon_marauder"
   },
   "simGameMechPartCost": 1583000,
