@@ -2,7 +2,7 @@
 	"Description" : {
 		"Id" : "TraitDefMinRangeReduce90",
 		"Name" : "Reduced Min. Range Penalty",
-		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior have their minimum weapon range penalty reduced by 4.",
+		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior have their minimum weapon range penalty reduced by 2.",
 		"Icon" : "uixSvgIcon_ability_mastertactician"
 	},
 	"Type" : "MinimumRangePenalty",
