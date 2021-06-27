@@ -205,7 +205,9 @@
     ],
     "VariantName": "WVR-7H",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_sldf"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher & Cavalry",

@@ -103,5 +103,10 @@
             "MaxRearArmor": -1,
             "InternalStructure": 65
         }
-    ]
+    ],
+    "ChassisTags": {
+        "items": [
+			"chassis_sldf"
+		]
+    }
 }

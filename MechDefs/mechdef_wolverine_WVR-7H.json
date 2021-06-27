@@ -9,8 +9,8 @@
       "unit_role_brawler",
       "unit_release",
       "unit_range_medium",
-      "unit_sldf",
-      "BLACKLISTED"
+      "BLACKLISTED",
+	  "unit_sldf"
     ],
     "tagSetSourceFile": ""
   },
